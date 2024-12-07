@@ -1,0 +1,23 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "autoApprove": true,
+    "automerge": true,
+    "commitBodyTable": true,
+    "dependencyDashboardOSVVulnerabilitySummary": "all",
+    "extends": [
+        ":assignee(juancarlosjr97)",
+        ":enablePreCommit",
+        ":reviewer(juancarlosjr97)",
+        ":semanticPrefixChore",
+        "config:recommended",
+        "group:all"
+    ],
+    "osvVulnerabilityAlerts": true,
+    "platformAutomerge": true,
+    "pre-commit": {
+        "fileMatch": [
+            "(^|/)\\.pre-commit-config\\.ya?ml$",
+            "pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml"
+        ]
+    }
+}
