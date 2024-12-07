@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.2.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.1.0...0.2.0) (2024-12-07)
+
+### Features
+
+* add on release close issues with comments ([013d97c](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/013d97ccb2f4f541319e9e7ead72b580b65077e4)), closes [#17](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/17)
+
 ## 0.1.0 (2024-12-07)
 
 ### Features
