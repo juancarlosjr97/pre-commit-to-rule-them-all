@@ -9,7 +9,10 @@
     },
     "github": {
         "release": true,
-        "releaseName": "${version}"
+        "releaseName": "${version}",
+        "comments": {
+            "submit": true
+        }
     },
     "plugins": {
         "@release-it/conventional-changelog": {
