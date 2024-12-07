@@ -11,6 +11,10 @@ def use_pre_commit_hooks_rust():
         'configurations/pre-commit-hooks-rust.yaml')
 
 
+def use_pre_commit_hooks_python():
+    """Method that executes the pre-commit hook for Python"""
+    execute_pre_commit_hooks_centralized(
+        'configurations/pre-commit-hooks-python.yaml')
 
 
 def execute_pre_commit_hooks_centralized(config_yaml):

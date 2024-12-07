@@ -28,5 +28,15 @@ class TestYamlConfigMethods(unittest.TestCase):
 
         run_pre_commit_hooks_centralized.use_pre_commit_hooks_rust()
 
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
+    def test_use_pre_commit_hooks_python(self, os_mock):
+        """
+        Test a valid path for python pre-commit
+        """
+        os_mock.path.isdir.return_value = False
+
+        run_pre_commit_hooks_centralized.use_pre_commit_hooks_python()
+
+
 if __name__ == '__main__':
     unittest.main()
