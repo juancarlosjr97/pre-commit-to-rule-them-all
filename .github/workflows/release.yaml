@@ -1,0 +1,22 @@
+---
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tests:
+    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-python-tests.yml@main
+    secrets:
+      CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  release-automation:
+    needs: tests
+    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-release-automation.yml@main
+    secrets:
+      PROJECT_GITHUB_TOKEN: ${{ secrets.PROJECT_GITHUB_TOKEN }}
+    with:
+      PLUGIN_LIST: "@release-it/conventional-changelog,@release-it/bumper"
