@@ -17,8 +17,7 @@
     "pre-commit": {
         "fileMatch": [
             "(^|/)\\.pre-commit-config\\.ya?ml$",
-            "pre_commit_to_rule_them_all/pre-commit-hooks-rust.yaml",
-            "pre_commit_to_rule_them_all/pre-commit-hooks-python.yaml"
+            "pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml"
         ]
     }
 }
