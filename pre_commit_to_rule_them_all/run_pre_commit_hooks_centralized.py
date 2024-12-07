@@ -9,6 +9,7 @@ def use_pre_commit_hooks_rust():
     """Method that executes the pre-commit hook with the javascript linter"""
     execute_pre_commit_hooks_centralized('pre-commit-hooks-rust.yaml')
 
+
 def execute_pre_commit_hooks_centralized(config_yaml):
     """Method that executes the specified centralized pre-commit hook configuration"""
 
