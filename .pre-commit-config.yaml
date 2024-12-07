@@ -1,0 +1,14 @@
+---
+default_install_hook_types: [commit-msg, pre-commit]
+repos:
+  - repo: local
+    hooks:
+      - id: centralized-pre-commit-hooks-rust
+        name: centralized-pre-commit-hooks-rust
+        description: ""
+        entry: centralized-pre-commit-hooks-rust
+        language: python
+        require_serial: true
+        verbose: true
+        stages:
+          - pre-commit

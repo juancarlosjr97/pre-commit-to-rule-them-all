@@ -1,0 +1,24 @@
+[project]
+name = "pre_commit_to_rule_them_all"
+description = ""
+readme = "README.md"
+version = "0.0.1"
+
+  [project.urls]
+  repository = "https://github.com/juancarlosjr97/pre-commit-to-rule-them-all"
+
+  [project.scripts]
+  centralized-pre-commit-hooks-rust = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_rust"
+
+[build-system]
+requires = [ "setuptools" ]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+  [tool.setuptools.package-data]
+  "*" = [ "*.yaml" ]
+
+[tool.setuptools.packages.find]
+include = [ "pre_commit_configuration*" ]
