@@ -33,3 +33,8 @@ jobs:
           files: ./coverage.xml
           flags: unittests
           name: codecov-umbrella
+
+      - name: Upload coverage reports to Codacy
+        run: bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r coverage.xml
+        env:
+          CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
