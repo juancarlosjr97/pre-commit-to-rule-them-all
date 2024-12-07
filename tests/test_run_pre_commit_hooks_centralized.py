@@ -20,14 +20,22 @@ class TestYamlConfigMethods(unittest.TestCase):
             run_pre_commit_hooks_centralized.execute_pre_commit_hooks_centralized, "beans")
 
     @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
-    def test_use_linter_yaml(self, os_mock):
+    def test_use_pre_commit_hooks_rust(self, os_mock):
         """
-        Test a valid path for linter pre-commit
+        Test a valid path for rust pre-commit
         """
         os_mock.path.isdir.return_value = False
 
         run_pre_commit_hooks_centralized.use_pre_commit_hooks_rust()
 
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
+    def test_use_pre_commit_hooks_python(self, os_mock):
+        """
+        Test a valid path for python pre-commit
+        """
+        os_mock.path.isdir.return_value = False
+
+        run_pre_commit_hooks_centralized.use_pre_commit_hooks_python()
 
 if __name__ == '__main__':
     unittest.main()

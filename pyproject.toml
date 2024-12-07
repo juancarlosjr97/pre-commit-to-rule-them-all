@@ -8,6 +8,7 @@ version = "0.0.1"
   repository = "https://github.com/juancarlosjr97/pre-commit-to-rule-them_all"
 
   [project.scripts]
+  centralized-pre-commit-hooks-python = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_python"
   centralized-pre-commit-hooks-rust = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_rust"
 
 [build-system]

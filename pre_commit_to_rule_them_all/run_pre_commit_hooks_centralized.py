@@ -6,9 +6,12 @@ import os
 
 
 def use_pre_commit_hooks_rust():
-    """Method that executes the pre-commit hook with the javascript linter"""
+    """Method that executes the pre-commit hook for Rust"""
     execute_pre_commit_hooks_centralized('pre-commit-hooks-rust.yaml')
 
+def use_pre_commit_hooks_python():
+    """Method that executes the pre-commit hook for Python"""
+    execute_pre_commit_hooks_centralized('pre-commit-hooks-python.yaml')
 
 def execute_pre_commit_hooks_centralized(config_yaml):
     """Method that executes the specified centralized pre-commit hook configuration"""
