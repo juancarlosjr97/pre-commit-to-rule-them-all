@@ -1,6 +1,6 @@
 [project]
 name = "pre_commit_to_rule_them_all"
-description = ""
+description = "Project for centralized pre-commits hooks"
 readme = "README.md"
 version = "0.0.1"
 
