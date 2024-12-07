@@ -1,0 +1,11 @@
+---
+- id: centralized-pre-commit-hooks-rust
+  name: centralized-pre-commit-hooks-rust
+  description: "Centralized pre-commits hooks for Rust"
+  entry: centralized-pre-commit-hooks-rust
+  language: python
+  require_serial: true
+  verbose: true
+  stages:
+    - pre-commit
+...
