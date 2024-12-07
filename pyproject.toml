@@ -2,7 +2,7 @@
 name = "pre_commit_to_rule_them_all"
 description = "Project for centralized pre-commits hooks"
 readme = "README.md"
-version = "0.0.1"
+version = "0.1.0"
 
   [project.urls]
   repository = "https://github.com/juancarlosjr97/pre-commit-to-rule-them_all"
@@ -25,6 +25,4 @@ include-package-data = true
 include = [ "pre_commit_to_rule_them_all*" ]
 
 [tool.coverage.run]
-omit = [
-    "tests/*"
-]
+omit = [ "tests/*" ]
