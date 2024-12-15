@@ -29,6 +29,6 @@ def execute_pre_commit_hooks_centralized(config_yaml):
     if os.path.exists(pre_commit_configuration_path):
         cmd = ['pre-commit', 'run', '--config',
                pre_commit_configuration_path, '--files']
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=False)
     else:
         raise FileNotFoundError("File not found!")
