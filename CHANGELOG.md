@@ -3,6 +3,16 @@
 This changelog is auto generated using release-it.
 
 
+## [0.4.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.3.0...0.4.0) (2024-12-15)
+
+### Features
+
+* set check as false for python wrapper to avoid showing python error stack ([c91b151](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c91b151eb3fdc0fcd2554a8d201dff18ac074a1b)), closes [#18](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/18)
+
+### Tests
+
+* update assert to pre-comit execution ([8b249d0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/8b249d0b860372ac9ec100adab885cb0b4037e64)), closes [#18](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/18)
+
 ## [0.3.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.2.0...0.3.0) (2024-12-07)
 
 ### Features
