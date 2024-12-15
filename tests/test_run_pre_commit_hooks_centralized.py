@@ -32,7 +32,7 @@ class TestYamlConfigMethods(unittest.TestCase):
 
         mock_subprocess_run.assert_called_once_with(
             ['pre-commit', 'run', '--config', ANY, '--files'],
-            check=True
+            check=False
         )
 
     @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
@@ -48,7 +48,7 @@ class TestYamlConfigMethods(unittest.TestCase):
 
         mock_subprocess_run.assert_called_once_with(
             ['pre-commit', 'run', '--config', ANY, '--files'],
-            check=True
+            check=False
         )
 
 
