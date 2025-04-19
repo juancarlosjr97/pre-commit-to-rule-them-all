@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.4.5](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.4.4...0.4.5) (2025-04-19)
+
+### Chores
+
+* **deps:** update dependency packaging to v25 ([#24](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/24)) ([a1dd788](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a1dd788e421897ceb564d11c1e9b996aa67aa1b5))
+
 ## [0.4.4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.4.3...0.4.4) (2025-04-05)
 
 ### Chores
