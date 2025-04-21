@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.4.5...0.5.0) (2025-04-21)
+
+### Features
+
+* simplify renovate configuration by removing unused options and using centralized configuration ([da3999f](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/da3999ff4a9d0aa4b96279c2f3fa5faebd130397)), closes [#25](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/25)
+
 ## [0.4.5](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.4.4...0.4.5) (2025-04-19)
 
 ### Chores
