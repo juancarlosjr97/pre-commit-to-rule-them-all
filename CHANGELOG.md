@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.1](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.0...0.5.1) (2025-06-02)
+
+### Chores
+
+* **deps:** update all dependencies ([#28](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/28)) ([1046714](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/104671403d411939babb042210a438c4eaebc62b))
+
 ## [0.5.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.4.5...0.5.0) (2025-04-21)
 
 ### Features
