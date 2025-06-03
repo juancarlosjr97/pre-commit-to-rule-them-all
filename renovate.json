@@ -6,9 +6,9 @@
         "github>juancarlosjr97/renovate-configuration#0.1.4"
     ],
     "pre-commit": {
-        "fileMatch": [
-            "(^|/)\\.pre-commit-config\\.ya?ml$",
-            "pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml"
+        "managerFilePatterns": [
+            "/(^|/)\\.pre-commit-config\\.ya?ml$/",
+            "/pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml/"
         ]
     }
 }
