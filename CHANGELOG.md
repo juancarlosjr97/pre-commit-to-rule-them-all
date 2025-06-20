@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.5](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.4...0.5.5) (2025-06-20)
+
+### Chores
+
+* **config:** migrate config renovate.json ([5a1a54e](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/5a1a54e0961fcd8438d8eb3f936187221e8fb0b1))
+
 ## [0.5.4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.3...0.5.4) (2025-06-18)
 
 ### Chores
