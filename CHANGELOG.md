@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.9](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.8...0.5.9) (2025-10-08)
+
+### Chores
+
+* **deps:** update python docker tag to v3.14 ([#35](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/35)) ([e2e9ce2](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/e2e9ce20de05e9b7c9e0ae561b1ac1c7aa505816))
+
 ## [0.5.8](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.7...0.5.8) (2025-09-09)
 
 ### Chores
