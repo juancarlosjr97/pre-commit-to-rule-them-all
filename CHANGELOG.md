@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.10](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.9...0.5.10) (2025-10-18)
+
+### Chores
+
+* **deps:** update dependency iniconfig to v2.2.0 ([ae53f17](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/ae53f1794e66018a81949107b0b1aa3e51d10533))
+
 ## [0.5.9](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.8...0.5.9) (2025-10-08)
 
 ### Chores
