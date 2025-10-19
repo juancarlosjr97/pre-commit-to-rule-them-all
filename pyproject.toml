@@ -2,7 +2,7 @@
 name = "pre_commit_to_rule_them_all"
 description = "Project for centralized pre-commits hooks"
 readme = "README.md"
-version = "0.5.10"
+version = "0.5.11"
 
   [project.urls]
   repository = "https://github.com/juancarlosjr97/pre-commit-to-rule-them_all"
