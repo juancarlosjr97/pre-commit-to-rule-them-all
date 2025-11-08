@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.12](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.11...0.5.12) (2025-11-08)
+
+### Chores
+
+* **deps:** update dependency pytest to v9 ([#38](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/38)) ([2e047dd](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/2e047dda1a3538ac5517bd837eff5f64682dd37d))
+
 ## [0.5.11](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.10...0.5.11) (2025-10-19)
 
 ### Chores
