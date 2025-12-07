@@ -3,6 +3,8 @@
 This changelog is auto generated using release-it.
 
 
+## [0.5.14](///compare/0.5.13...0.5.14) (2025-12-07)
+
 ## [0.5.13](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.12...0.5.13) (2025-11-13)
 
 ### Chores
