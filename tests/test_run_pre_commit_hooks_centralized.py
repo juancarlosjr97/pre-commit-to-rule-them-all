@@ -51,6 +51,38 @@ class TestYamlConfigMethods(unittest.TestCase):
             check=False
         )
 
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
+    def test_use_pre_commit_hooks_skills_check(self, os_mock, mock_subprocess_run):
+        """
+        Test a valid path for skills check pre-commit
+        """
+        os_mock.path.isdir.return_value = False
+        os_mock.path.exists.return_value = True
+
+        run_pre_commit_hooks_centralized.use_pre_commit_hooks_skills_check()
+
+        mock_subprocess_run.assert_called_once_with(
+            ['pre-commit', 'run', '--config', ANY, '--files'],
+            check=False
+        )
+
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
+    def test_use_pre_commit_hooks_skills_update(self, os_mock, mock_subprocess_run):
+        """
+        Test a valid path for skills update pre-commit
+        """
+        os_mock.path.isdir.return_value = False
+        os_mock.path.exists.return_value = True
+
+        run_pre_commit_hooks_centralized.use_pre_commit_hooks_skills_update()
+
+        mock_subprocess_run.assert_called_once_with(
+            ['pre-commit', 'run', '--config', ANY, '--files'],
+            check=False
+        )
+
 
 if __name__ == '__main__':
     unittest.main()
