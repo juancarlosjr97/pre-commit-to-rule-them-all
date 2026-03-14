@@ -1,4 +1,13 @@
 ---
+- id: centralized-pre-commit-hooks-common
+  name: centralized-pre-commit-hooks-common
+  description: "Centralized pre-commit hooks for shared repository checks"
+  entry: centralized-pre-commit-hooks-common
+  language: python
+  require_serial: true
+  verbose: true
+  stages:
+    - pre-commit
 - id: centralized-pre-commit-hooks-python
   name: centralized-pre-commit-hooks-python
   description: "Centralized pre-commits hooks for Python"

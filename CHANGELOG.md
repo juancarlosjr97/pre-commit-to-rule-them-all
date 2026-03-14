@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.6.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.16...0.6.0) (2026-03-14)
+
+### Features
+
+* added a common pre-commit hooks bundle and a new CLI command to run it. ([cf0f763](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/cf0f763b41f5b3590366858f958ebaf97cef3246)), closes [#45](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/45)
+
 ## [0.5.16](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.15...0.5.16) (2026-01-22)
 
 ### Chores
