@@ -86,9 +86,18 @@ pylint .
 pre-commit run --all-files
 ```
 
-If you are using the checked-in virtual environment, the validated commands are:
+If you prefer to use a local virtual environment in `./venv`, you can create and activate it with:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -e ".[dev]"
+```
+
+Then the validated commands are:
 
 ```bash
 ./venv/bin/pytest -q
 ./venv/bin/pylint .
+pre-commit run --all-files
 ```
