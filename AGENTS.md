@@ -38,8 +38,8 @@ This repository packages centralized pre-commit hook bundles as a small Python d
 
 Validate changes by:
 
-1. Running `./venv/bin/pytest -q` if the checked-in virtual environment is present, or `pytest` in an activated development environment.
-2. Running `./venv/bin/pylint .` if the checked-in virtual environment is present, or `pylint .` in an activated development environment.
+1. Running `./venv/bin/pytest -q` if you have created a local virtual environment at `./venv`, or `pytest` in an activated development environment.
+2. Running `./venv/bin/pylint .` if you have created a local virtual environment at `./venv`, or `pylint .` in an activated development environment.
 3. Running `pre-commit run --all-files` when changes affect hook configuration or repository metadata.
 4. Confirming hook profile changes are reflected everywhere they are declared.
 
