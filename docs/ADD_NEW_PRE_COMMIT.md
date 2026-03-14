@@ -91,7 +91,8 @@ If you prefer to use a local virtual environment in `./venv`, you can create and
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -e ".[dev]"
+pip install -e .
+pip install -r requirements.txt
 ```
 
 Then the validated commands are:
