@@ -14,7 +14,7 @@ This installs three local entrypoints:
 - `centralized-pre-commit-hooks-python`
 - `centralized-pre-commit-hooks-rust`
 
-If you are using the checked-in virtual environment, the validated commands are:
+If you create a local virtual environment at `./venv` (for example, with `python -m venv venv`), you can run the validated commands as:
 
 ```bash
 ./venv/bin/pytest -q
