@@ -2,10 +2,11 @@
 
 ## Setup
 
-Install the package locally so the console-script entrypoints are available:
+Install the package and all development dependencies:
 
 ```bash
 python -m pip install -e .
+pip install -r requirements.txt
 ```
 
 This installs three local entrypoints:
