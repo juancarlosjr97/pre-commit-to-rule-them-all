@@ -5,7 +5,7 @@
 [![Codacy Coverage][5]][6]
 [![MIT][7]][8]
 
-Centralized pre-commit hook bundles for Python and Rust projects. This repository packages reusable hook profiles as a Python distribution and exposes them through pre-commit hook IDs, so consumers can adopt a curated set of checks without copying large hook configurations into every repository.
+Centralized pre-commit hook bundles for common repository checks, Python, and Rust projects. This repository packages reusable hook profiles as a Python distribution and exposes them through pre-commit hook IDs, so consumers can adopt a curated set of checks without copying large hook configurations into every repository.
 
 > [!NOTE]
 > This project releases through automated release-it workflows. `CHANGELOG.md` is generated from commit history and `pyproject.toml` version bumps are handled during release automation.
@@ -18,8 +18,9 @@ At runtime, each published hook:
 2. Calls `pre-commit run --config <resolved config> --files`
 3. Delegates the actual checks to the tools defined in that bundle
 
-The repository currently exposes two hook bundles:
+The repository currently exposes three hook bundles:
 
+- `centralized-pre-commit-hooks-common` for shared repository hygiene checks
 - `centralized-pre-commit-hooks-python` for Python formatting/import cleanup tooling
 - `centralized-pre-commit-hooks-rust` for Rust formatting and linting tooling
 
@@ -29,7 +30,17 @@ The package also ships shared configuration under `pre_commit_to_rule_them_all/c
 
 Add this repository to your `.pre-commit-config.yaml` and choose the hook profile you want to consume.
 
-### Python bundle
+### Use the common bundle
+
+```yaml
+repos:
+  - repo: https://github.com/juancarlosjr97/pre-commit-to-rule-them-all
+    rev: 0.5.16
+    hooks:
+      - id: centralized-pre-commit-hooks-common
+```
+
+### Use the Python bundle
 
 ```yaml
 repos:
@@ -39,7 +50,7 @@ repos:
       - id: centralized-pre-commit-hooks-python
 ```
 
-### Rust bundle
+### Use the Rust bundle
 
 ```yaml
 repos:
@@ -58,7 +69,7 @@ pre-commit run --all-files
 
 ## Included Tooling
 
-### Python bundle
+### Python bundle contents
 
 The Python hook bundle currently includes:
 
@@ -66,7 +77,7 @@ The Python hook bundle currently includes:
 - `pycln`
 - `autopep8`
 
-### Rust bundle
+### Rust bundle contents
 
 The Rust hook bundle currently includes:
 
@@ -74,14 +85,20 @@ The Rust hook bundle currently includes:
 - `cargo-check`
 - `clippy`
 
-### Shared repository checks
+### Common bundle contents
 
-The repository also maintains shared checks in `pre_commit_to_rule_them_all/configurations/common.yaml`, including:
+The common hook bundle is defined in `pre_commit_to_rule_them_all/configurations/pre-commit-hooks-common.yaml` and includes:
 
 - `pre-commit-hooks` checks such as merge-conflict detection, TOML/XML validation, whitespace cleanup, JSON formatting, and test naming
 - `yamllint`
 - `gitleaks`
 - `markdownlint`
+
+To run just this profile in the current repository:
+
+```bash
+pre-commit run centralized-pre-commit-hooks-common --all-files
+```
 
 ## Development and Maintenance Docs
 

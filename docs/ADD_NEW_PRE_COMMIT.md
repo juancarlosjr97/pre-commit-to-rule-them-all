@@ -4,7 +4,7 @@ This repository publishes hook profiles as coordinated changes across Python pac
 
 ## Files to Update
 
-1. `pre_commit_to_rule_them_all/configurations/<new-profile>.yaml`
+1. `pre_commit_to_rule_them_all/configurations/pre-commit-hooks-<new-profile>.yaml`
 2. `pre_commit_to_rule_them_all/run_pre_commit_hooks_centralized.py`
 3. `pyproject.toml`
 4. `.pre-commit-hooks.yaml`
@@ -17,6 +17,7 @@ This repository publishes hook profiles as coordinated changes across Python pac
 Create a new YAML file under `pre_commit_to_rule_them_all/configurations/`.
 
 - Keep the file inside the Python package so setuptools includes it as package data.
+- Follow the existing filename convention: `pre-commit-hooks-<profile>.yaml`.
 - Define only the hooks that belong to the new profile.
 - Reuse the same style as the existing Python and Rust profile files.
 
@@ -65,7 +66,7 @@ This repository treats `.pre-commit-hooks.yaml` and `.pre-commit-config.yaml` as
 
 ## Step 6: Add or Update Tests
 
-Extend `tests/test_run_pre_commit_hooks_centralized.py` with a test for the new wrapper.
+Extend `tests/test_run_pre_commit_hooks_centralized_test.py` with a test for the new wrapper.
 
 Follow the existing mocking pattern:
 
