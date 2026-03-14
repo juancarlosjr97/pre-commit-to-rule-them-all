@@ -5,7 +5,7 @@ repos:
     hooks:
       - id: centralized-pre-commit-hooks-common
         name: centralized-pre-commit-hooks-common
-        description: "Centralized pre-commits hooks for shared repository checks"
+        description: "Centralized pre-commit hooks for shared repository checks"
         entry: centralized-pre-commit-hooks-common
         language: python
         require_serial: true
@@ -14,7 +14,7 @@ repos:
           - pre-commit
       - id: centralized-pre-commit-hooks-python
         name: centralized-pre-commit-hooks-python
-        description: "Centralized pre-commits hooks for Python"
+        description: "Centralized pre-commit hooks for Python"
         entry: centralized-pre-commit-hooks-python
         language: python
         require_serial: true
@@ -23,7 +23,7 @@ repos:
           - pre-commit
       - id: centralized-pre-commit-hooks-rust
         name: centralized-pre-commit-hooks-rust
-        description: "Centralized pre-commits hooks for Rust"
+        description: "Centralized pre-commit hooks for Rust"
         entry: centralized-pre-commit-hooks-rust
         language: python
         require_serial: true
