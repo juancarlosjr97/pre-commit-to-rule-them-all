@@ -11,6 +11,8 @@ version = "0.6.0"
   centralized-pre-commit-hooks-common = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_common"
   centralized-pre-commit-hooks-python = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_python"
   centralized-pre-commit-hooks-rust = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_rust"
+  centralized-pre-commit-hooks-skills-check = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_skills_check"
+  centralized-pre-commit-hooks-skills-update = "pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized:use_pre_commit_hooks_skills_update"
 
 [build-system]
 requires = [ "setuptools" ]
