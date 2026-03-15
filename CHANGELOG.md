@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.6.0...0.7.0) (2026-03-15)
+
+### Features
+
+* add skills.sh pre-commit hooks for automated agent skills checks ([#44](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/44)) ([235033c](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/235033cf7ea7a23c9c52bc9ba4c73c5711aa3895)), closes [#43](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/43)
+
 ## [0.6.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.16...0.6.0) (2026-03-14)
 
 ### Features
