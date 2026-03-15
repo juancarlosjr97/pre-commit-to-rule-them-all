@@ -104,6 +104,8 @@ class TestYamlConfigMethods(unittest.TestCase):
             check=False
         )
 
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
     def test_failed_pre_commit_propagates_return_code(self, os_mock, mock_subprocess_run):
         """
         Test a failing delegated pre-commit returns a non-zero exit code
