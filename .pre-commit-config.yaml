@@ -32,7 +32,7 @@ repos:
           - pre-commit
       - id: centralized-pre-commit-hooks-skills-check
         name: centralized-pre-commit-hooks-skills-check
-        description: "Centralized pre-commits hooks for skills check"
+        description: "Centralized pre-commit hooks for skills check"
         entry: centralized-pre-commit-hooks-skills-check
         language: python
         require_serial: true
@@ -41,7 +41,7 @@ repos:
           - pre-commit
       - id: centralized-pre-commit-hooks-skills-update
         name: centralized-pre-commit-hooks-skills-update
-        description: "Centralized pre-commits hooks for skills update"
+        description: "Centralized pre-commit hooks for skills update"
         entry: centralized-pre-commit-hooks-skills-update
         language: python
         require_serial: true
