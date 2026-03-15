@@ -78,6 +78,7 @@ class TestYamlConfigMethods(unittest.TestCase):
         """
         os_mock.path.isdir.return_value = False
         os_mock.path.exists.return_value = True
+        mock_subprocess_run.return_value.returncode = 0
 
         run_pre_commit_hooks_centralized.use_pre_commit_hooks_skills_check()
 
@@ -94,6 +95,7 @@ class TestYamlConfigMethods(unittest.TestCase):
         """
         os_mock.path.isdir.return_value = False
         os_mock.path.exists.return_value = True
+        mock_subprocess_run.return_value.returncode = 0
 
         run_pre_commit_hooks_centralized.use_pre_commit_hooks_skills_update()
 
