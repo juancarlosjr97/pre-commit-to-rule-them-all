@@ -5,7 +5,7 @@ repos:
       - id: skills-update
         name: skills update
         description: Update agent skills lockfile using npx skills update.
-        entry: npx skills update
+        entry: npx --yes skills update
         language: system
         files: ^(\.agents/skills/|skills\.lock\.json)
         pass_filenames: false
