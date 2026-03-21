@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.1](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.0...0.7.1) (2026-03-21)
+
+### Chores
+
+* **deps:** update dependency pytest-cov to v7.1.0 ([#50](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/50)) ([378f6f5](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/378f6f5ded0a9b37aed71a5dcb8bdb7555e68542))
+
 ## [0.7.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.6.0...0.7.0) (2026-03-15)
 
 ### Features
