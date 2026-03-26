@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.3](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.2...0.7.3) (2026-03-26)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to f998994 ([#52](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/52)) ([8553e8b](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/8553e8b25006c532d679c500a9f39b8aa85d60dd))
+
 ## [0.7.2](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.1...0.7.2) (2026-03-26)
 
 ### Chores
