@@ -13,7 +13,7 @@ on:
 jobs:
   release-automation:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-release-automation.yml@93f8fd35f3c6a3f3914fba13be608067e67ed68c # main
+    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-release-automation.yml@2f925ed86ebfc7cc2005e8557a4f54bf98835266 # main
     secrets:
       PROJECT_GITHUB_TOKEN: ${{ secrets.PROJECT_GITHUB_TOKEN }}
     with:
