@@ -3,6 +3,8 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.20](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.19...0.7.20) (2026-04-09)
+
 ## [0.7.19](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.18...0.7.19) (2026-04-08)
 
 ### Chores
