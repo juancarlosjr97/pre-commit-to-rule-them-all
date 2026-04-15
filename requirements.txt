@@ -1,6 +1,6 @@
 autopep8==2.3.2
 iniconfig==2.3.0
-packaging==26.0
+packaging==26.1
 pluggy==1.6.0
 pre-commit==4.5.1
 pylint==4.0.5
