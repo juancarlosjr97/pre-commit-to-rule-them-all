@@ -3,6 +3,8 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.35](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.34...0.7.35) (2026-04-19)
+
 ## [0.7.34](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.33...0.7.34) (2026-04-17)
 
 ## [0.7.33](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.32...0.7.33) (2026-04-17)
