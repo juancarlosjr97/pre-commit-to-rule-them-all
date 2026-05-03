@@ -3,7 +3,7 @@
     "extends": [
         ":assignee(juancarlosjr97)",
         ":reviewer(juancarlosjr97)",
-        "github>juancarlosjr97/renovate-configuration#0.1.7"
+        "github>juancarlosjr97/renovate-configuration#0.1.8"
     ],
     "pre-commit": {
         "managerFilePatterns": [
