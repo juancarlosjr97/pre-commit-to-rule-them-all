@@ -73,3 +73,4 @@ pre-commit run centralized-pre-commit-hooks-common --all-files
 - `pre_commit_to_rule_them_all/run_pre_commit_hooks_centralized.py` contains the wrapper logic for the published console scripts.
 - `tests/test_run_pre_commit_hooks_centralized_test.py` verifies path resolution and subprocess invocation with mocks rather than executing real hooks.
 - Release automation updates `CHANGELOG.md` and the package version automatically, so those files should not be edited manually during normal maintenance work.
+- Internal shared-tooling references (`juancarlosjr97/pre-commit-to-rule-them-all`, `juancarlosjr97/github-actions-workflows-to-rule-them-all`, `juancarlosjr97/release-it-containerized`, and `juancarlosjr97/renovate-configuration`) are intentionally pinned to `main` and excluded from Renovate upgrades to prevent circular update churn across the ecosystem.

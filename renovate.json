@@ -1,9 +1,16 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Internal shared-tooling references are intentionally pinned to main to avoid circular Renovate update churn across the tooling ecosystem.",
     "extends": [
         ":assignee(juancarlosjr97)",
         ":reviewer(juancarlosjr97)",
-        "github>juancarlosjr97/renovate-configuration#0.2.3"
+        "github>juancarlosjr97/renovate-configuration#main"
+    ],
+    "ignoreDeps": [
+        "juancarlosjr97/pre-commit-to-rule-them-all",
+        "juancarlosjr97/github-actions-workflows-to-rule-them-all",
+        "juancarlosjr97/release-it-containerized",
+        "juancarlosjr97/renovate-configuration"
     ],
     "pre-commit": {
         "managerFilePatterns": [
