@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-python-tests.yml@927604e6b766c9c21d1a919c4f0ed5b5518697c2 # main
+    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-python-tests.yml@0927dc505b550e9a39d5c860bfca58c0eb947828 # main
     secrets:
       CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
