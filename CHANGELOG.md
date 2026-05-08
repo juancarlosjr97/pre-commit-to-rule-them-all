@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.55](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.54...0.7.55) (2026-05-08)
+
+### Chores
+
+* **deps:** update dependency juancarlosjr97/renovate-configuration to v0.2.5 ([#106](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/106)) ([0608807](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/06088077853573c5acb12aa6cd98c1d19a313697))
+
 ## [0.7.54](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.53...0.7.54) (2026-05-08)
 
 ### Chores
