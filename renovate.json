@@ -4,13 +4,8 @@
     "extends": [
         ":assignee(juancarlosjr97)",
         ":reviewer(juancarlosjr97)",
-        "github>juancarlosjr97/renovate-configuration#main"
-    ],
-    "ignoreDeps": [
-        "juancarlosjr97/pre-commit-to-rule-them-all",
-        "juancarlosjr97/github-actions-workflows-to-rule-them-all",
-        "juancarlosjr97/release-it-containerized",
-        "juancarlosjr97/renovate-configuration"
+        "github>juancarlosjr97/renovate-configuration#main",
+        "github>juancarlosjr97/renovate-configuration:presets/internal-tooling-circular#main"
     ],
     "pre-commit": {
         "managerFilePatterns": [
