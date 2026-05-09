@@ -1,14 +1,15 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        ":assignee(juancarlosjr97)",
-        ":reviewer(juancarlosjr97)",
-        "github>juancarlosjr97/renovate-configuration#0.3.2"
-    ],
-    "pre-commit": {
-        "managerFilePatterns": [
-            "/(^|/)\\.pre-commit-config\\.ya?ml$/",
-            "/pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml/"
-        ]
-    }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":assignee(juancarlosjr97)",
+    ":reviewer(juancarlosjr97)",
+    "github>juancarlosjr97/renovate-configuration#main",
+    "github>juancarlosjr97/renovate-configuration//presets/internal-tooling-circular#main"
+  ],
+  "pre-commit": {
+    "managerFilePatterns": [
+      "/(^|/)\\.pre-commit-config\\.ya?ml$/",
+      "/pre_commit_to_rule_them_all/pre-commit-hooks-.*\\.yaml/"
+    ]
+  }
 }
