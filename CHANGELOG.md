@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.8.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.58...0.8.0) (2026-05-09)
+
+### Features
+
+* add renovate-config-validator to common pre-commit hook bundle ([#111](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/111)) ([f3589bd](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/f3589bd9096d0670122d019e8a49695696a95e3b))
+
 ## [0.7.58](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.57...0.7.58) (2026-05-09)
 
 ### Chores
