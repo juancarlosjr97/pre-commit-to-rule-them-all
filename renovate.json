@@ -5,7 +5,7 @@
         ":assignee(juancarlosjr97)",
         ":reviewer(juancarlosjr97)",
         "github>juancarlosjr97/renovate-configuration#main",
-        "github>juancarlosjr97/renovate-configuration:presets/internal-tooling-circular#main"
+        "github>juancarlosjr97/renovate-configuration//presets/internal-tooling-circular#main"
     ],
     "pre-commit": {
         "managerFilePatterns": [
