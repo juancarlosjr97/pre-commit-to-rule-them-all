@@ -93,6 +93,7 @@ The common hook bundle is defined in `pre_commit_to_rule_them_all/configurations
 - `yamllint`
 - `gitleaks`
 - `markdownlint`
+- `renovate-config-validator`
 
 To run just this profile in the current repository:
 
