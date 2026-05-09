@@ -3,6 +3,42 @@
 This changelog is auto generated using release-it.
 
 
+## [0.7.58](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.57...0.7.58) (2026-05-09)
+
+### Chores
+
+* **deps:** update dependency juancarlosjr97/renovate-configuration to v0.3.0 ([#109](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/109)) ([736958a](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/736958ae5c5a610f8a8d896c80d9af3d4326ca97))
+
+## [0.7.57](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.56...0.7.57) (2026-05-09)
+
+### Chores
+
+* **deps:** update all dependencies ([#108](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/108)) ([68afefe](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/68afefe9cc8e519f0becdbe312dfc6d77432ced8))
+
+## [0.7.56](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.55...0.7.56) (2026-05-08)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 0927dc5 ([#107](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/107)) ([b38ce55](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/b38ce55f6a67d52a19bd6d9ad56d7a12d30c1295))
+
+## [0.7.55](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.54...0.7.55) (2026-05-08)
+
+### Chores
+
+* **deps:** update dependency juancarlosjr97/renovate-configuration to v0.2.5 ([#106](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/106)) ([0608807](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/06088077853573c5acb12aa6cd98c1d19a313697))
+
+## [0.7.54](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.53...0.7.54) (2026-05-08)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 927604e ([#105](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/105)) ([3010615](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/301061562d9467425f7f4f59ab983eb4980fa362))
+
+## [0.7.53](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.52...0.7.53) (2026-05-07)
+
+### Chores
+
+* **deps:** update dependency juancarlosjr97/renovate-configuration to v0.2.4 ([#104](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/104)) ([be4d9af](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/be4d9aff153a001a74ce99c44ecb95355cd6ef93))
+
 ## [0.7.52](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.51...0.7.52) (2026-05-07)
 
 ### Chores
