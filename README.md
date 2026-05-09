@@ -89,10 +89,27 @@ The Rust hook bundle currently includes:
 
 The common hook bundle is defined in `pre_commit_to_rule_them_all/configurations/pre-commit-hooks-common.yaml` and includes:
 
-- `pre-commit-hooks` checks such as merge-conflict detection, TOML/XML validation, whitespace cleanup, JSON formatting, and test naming
-- `yamllint`
 - `gitleaks`
 - `markdownlint`
+- `pre-commit-hooks`:
+  - `check-added-large-files`
+  - `check-docstring-first`
+  - `check-executables-have-shebangs`
+  - `check-merge-conflict`
+  - `check-shebang-scripts-are-executable`
+  - `check-toml`
+  - `check-xml`
+  - `detect-aws-credentials`
+  - `detect-private-key`
+  - `end-of-file-fixer`
+  - `fix-encoding-pragma`
+  - `mixed-line-ending`
+  - `name-tests-test`
+  - `pretty-format-json`
+  - `requirements-txt-fixer`
+  - `trailing-whitespace`
+- `renovate-config-validator`
+- `yamllint`
 
 To run just this profile in the current repository:
 
