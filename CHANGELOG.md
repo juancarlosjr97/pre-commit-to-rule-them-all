@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.8.4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.8.3...0.8.4) (2026-05-10)
+
+### Bug Fixes
+
+* pin internal shared-tooling references to `main` ([#114](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/114)) ([07a3eb5](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/07a3eb5ca286e60d090d2b79e97bfcc8cbe46d32))
+
 ## [0.8.3](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.8.2...0.8.3) (2026-05-10)
 
 ### Chores
