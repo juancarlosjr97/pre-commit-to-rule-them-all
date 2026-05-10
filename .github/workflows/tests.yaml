@@ -4,9 +4,6 @@ name: Tests
 on:
   push:
 
-permissions:
-  contents: read
-
 jobs:
   tests:
     uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-python-tests.yml@main
