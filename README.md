@@ -66,7 +66,7 @@ repos:
 ```yaml
 repos:
   - repo: https://github.com/juancarlosjr97/pre-commit-to-rule-them-all
-    rev: 0.5.16
+    rev: 0.9.0
     hooks:
       - id: centralized-pre-commit-hooks-github-action-static-analysis
 ```
