@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.9.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.8.4...0.9.0) (2026-05-10)
+
+### Features
+
+* add github-action-static-analysis hook bundle backed by zizmor ([#117](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/117)) ([3c72bba](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/3c72bba4b668f5f8b11977653fc58d1a7eb060bf))
+
 ## [0.8.4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.8.3...0.8.4) (2026-05-10)
 
 ### Bug Fixes
