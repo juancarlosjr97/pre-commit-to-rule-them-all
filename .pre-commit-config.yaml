@@ -30,6 +30,15 @@ repos:
         verbose: true
         stages:
           - pre-commit
+      - id: centralized-pre-commit-hooks-github-action-static-analysis
+        name: centralized-pre-commit-hooks-github-action-static-analysis
+        description: "Centralized pre-commit hooks for GitHub Action static analysis"
+        entry: centralized-pre-commit-hooks-github-action-static-analysis
+        language: python
+        require_serial: true
+        verbose: true
+        stages:
+          - pre-commit
       - id: centralized-pre-commit-hooks-skills-check
         name: centralized-pre-commit-hooks-skills-check
         description: "Centralized pre-commit hooks for skills check"

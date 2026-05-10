@@ -24,6 +24,12 @@ def use_pre_commit_hooks_python():
         'configurations/pre-commit-hooks-python.yaml')
 
 
+def use_pre_commit_hooks_github_action_static_analysis():
+    """Method that executes the pre-commit hook for GitHub Action static analysis"""
+    execute_pre_commit_hooks_centralized(
+        'configurations/pre-commit-hooks-github-action-static-analysis.yaml')
+
+
 def use_pre_commit_hooks_skills_check():
     """Method that executes the pre-commit hook for skills check"""
     execute_pre_commit_hooks_centralized(
