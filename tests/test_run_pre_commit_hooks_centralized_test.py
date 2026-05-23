@@ -151,11 +151,15 @@ class TestCommonConfiguration(unittest.TestCase):
         )
 
         local_repo = next(
-            repo for repo in common_config['repos'] if repo['repo'] == 'local'
+            (repo for repo in common_config['repos'] if repo['repo'] == 'local'),
+            None
         )
+        self.assertIsNotNone(local_repo, "Expected a local repo block in common config")
         vp_staged_hook = next(
-            hook for hook in local_repo['hooks'] if hook['id'] == 'vp-staged'
+            (hook for hook in local_repo['hooks'] if hook['id'] == 'vp-staged'),
+            None
         )
+        self.assertIsNotNone(vp_staged_hook, "Expected vp-staged hook in local repo block")
 
         self.assertEqual(vp_staged_hook['name'], 'vp staged')
         self.assertEqual(vp_staged_hook['entry'], 'vp staged')
