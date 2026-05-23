@@ -5,7 +5,7 @@
 [![Codacy Coverage][5]][6]
 [![MIT][7]][8]
 
-Centralized pre-commit hook bundles for common repository checks, Python, Rust, and GitHub Action static analysis. This repository packages reusable hook profiles as a Python distribution and exposes them through pre-commit hook IDs, so consumers can adopt a curated set of checks without copying large hook configurations into every repository.
+Centralized pre-commit hook bundles for common repository checks, Python, Rust, GitHub Action static analysis, and viteplus workflows. This repository packages reusable hook profiles as a Python distribution and exposes them through pre-commit hook IDs, so consumers can adopt a curated set of checks without copying large hook configurations into every repository.
 
 > [!NOTE]
 > This project releases through automated release-it workflows. `CHANGELOG.md` is generated from commit history and `pyproject.toml` version bumps are handled during release automation.
@@ -18,12 +18,13 @@ At runtime, each published hook:
 2. Calls `pre-commit run --config <resolved config> --files`
 3. Delegates the actual checks to the tools defined in that bundle
 
-The repository currently exposes four hook bundles:
+The repository currently exposes five hook bundles:
 
 - `centralized-pre-commit-hooks-common` for shared repository hygiene checks
 - `centralized-pre-commit-hooks-python` for Python formatting/import cleanup tooling
 - `centralized-pre-commit-hooks-rust` for Rust formatting and linting tooling
 - `centralized-pre-commit-hooks-github-action-static-analysis` for GitHub Action static analysis with `zizmor`
+- `centralized-pre-commit-hooks-viteplus` for viteplus staged workflows with `vp staged`
 
 The package also ships shared configuration under `pre_commit_to_rule_them_all/configurations/`, and the repository uses `.pre-commit-hooks.yaml` plus `.pre-commit-config.yaml` to publish and exercise those hook entrypoints.
 
@@ -69,6 +70,16 @@ repos:
     rev: 0.9.0
     hooks:
       - id: centralized-pre-commit-hooks-github-action-static-analysis
+```
+
+### Use the viteplus bundle
+
+```yaml
+repos:
+  - repo: https://github.com/juancarlosjr97/pre-commit-to-rule-them-all
+    rev: 0.9.0
+    hooks:
+      - id: centralized-pre-commit-hooks-viteplus
 ```
 
 After adding a hook, install and run pre-commit as usual:
@@ -120,7 +131,6 @@ The common hook bundle is defined in `pre_commit_to_rule_them_all/configurations
   - `requirements-txt-fixer`
   - `trailing-whitespace`
 - `renovate-config-validator`
-- `vp staged`
 - `yamllint`
 
 To run just this profile in the current repository:
@@ -134,6 +144,12 @@ pre-commit run centralized-pre-commit-hooks-common --all-files
 The GitHub Action static-analysis hook bundle is defined in `pre_commit_to_rule_them_all/configurations/pre-commit-hooks-github-action-static-analysis.yaml` and includes:
 
 - `zizmor`
+
+### Viteplus bundle contents
+
+The viteplus hook bundle is defined in `pre_commit_to_rule_them_all/configurations/pre-commit-hooks-viteplus.yaml` and includes:
+
+- `vp staged`
 
 ## Development and Maintenance Docs
 

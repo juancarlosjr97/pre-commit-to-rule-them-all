@@ -125,6 +125,23 @@ class TestYamlConfigMethods(unittest.TestCase):
 
     @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
     @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
+    def test_use_pre_commit_hooks_viteplus(self, os_mock, mock_subprocess_run):
+        """
+        Test a valid path for viteplus pre-commit
+        """
+        os_mock.path.isdir.return_value = False
+        os_mock.path.exists.return_value = True
+        mock_subprocess_run.return_value.returncode = 0
+
+        run_pre_commit_hooks_centralized.use_pre_commit_hooks_viteplus()
+
+        mock_subprocess_run.assert_called_once_with(
+            ['pre-commit', 'run', '--config', ANY, '--files'],
+            check=False
+        )
+
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.subprocess.run')
+    @patch('pre_commit_to_rule_them_all.run_pre_commit_hooks_centralized.os')
     def test_failed_pre_commit_propagates_return_code(self, os_mock, mock_subprocess_run):
         """
         Test a failing delegated pre-commit returns a non-zero exit code
@@ -139,27 +156,27 @@ class TestYamlConfigMethods(unittest.TestCase):
         self.assertEqual(context.exception.code, 1)
 
 
-class TestCommonConfiguration(unittest.TestCase):
-    """Tests for the common configuration file contents."""
+class TestViteplusConfiguration(unittest.TestCase):
+    """Tests for the viteplus configuration file contents."""
 
-    def test_common_configuration_includes_vp_staged_local_hook(self):
-        """The common profile should include the local viteplus staged hook."""
-        common_config = yaml.safe_load(
+    def test_viteplus_configuration_includes_vp_staged_local_hook(self):
+        """The viteplus profile should include the local viteplus staged hook."""
+        viteplus_config = yaml.safe_load(
             resources.files('pre_commit_to_rule_them_all').joinpath(
-                'configurations/pre-commit-hooks-common.yaml'
+                'configurations/pre-commit-hooks-viteplus.yaml'
             ).read_text(encoding='utf-8')
         )
 
         local_repo = next(
-            (repo for repo in common_config['repos'] if repo['repo'] == 'local'),
+            (repo for repo in viteplus_config['repos'] if repo['repo'] == 'local'),
             None
         )
-        self.assertIsNotNone(local_repo, "Expected a local repo block in common config")
+        self.assertIsNotNone(local_repo, "Expected a local repo block in viteplus config")
         vp_staged_hook = next(
             (hook for hook in local_repo['hooks'] if hook['id'] == 'vp-staged'),
             None
         )
-        self.assertIsNotNone(vp_staged_hook, "Expected vp-staged hook in local repo block")
+        self.assertIsNotNone(vp_staged_hook, "Expected vp-staged hook in viteplus local repo block")
 
         self.assertEqual(vp_staged_hook['name'], 'vp staged')
         self.assertEqual(vp_staged_hook['entry'], 'vp staged')
