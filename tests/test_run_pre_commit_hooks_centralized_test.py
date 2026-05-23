@@ -3,9 +3,10 @@
 Test module for the pre_commit_to_rule_them_all module
 """
 import unittest
-from pathlib import Path
+from importlib import resources
 from unittest.mock import ANY, patch
 
+import yaml
 from pre_commit_to_rule_them_all import run_pre_commit_hooks_centralized
 
 
@@ -143,15 +144,23 @@ class TestCommonConfiguration(unittest.TestCase):
 
     def test_common_configuration_includes_vp_staged_local_hook(self):
         """The common profile should include the local viteplus staged hook."""
-        common_config_path = Path(__file__).resolve().parent.parent / (
-            'pre_commit_to_rule_them_all/configurations/pre-commit-hooks-common.yaml'
+        common_config = yaml.safe_load(
+            resources.files('pre_commit_to_rule_them_all').joinpath(
+                'configurations/pre-commit-hooks-common.yaml'
+            ).read_text(encoding='utf-8')
         )
-        common_config = common_config_path.read_text(encoding='utf-8')
 
-        self.assertIn('repo: local', common_config)
-        self.assertIn('id: vp-staged', common_config)
-        self.assertIn('entry: vp staged', common_config)
-        self.assertIn('pass_filenames: false', common_config)
+        local_repo = next(
+            repo for repo in common_config['repos'] if repo['repo'] == 'local'
+        )
+        vp_staged_hook = next(
+            hook for hook in local_repo['hooks'] if hook['id'] == 'vp-staged'
+        )
+
+        self.assertEqual(vp_staged_hook['name'], 'vp staged')
+        self.assertEqual(vp_staged_hook['entry'], 'vp staged')
+        self.assertEqual(vp_staged_hook['language'], 'system')
+        self.assertFalse(vp_staged_hook['pass_filenames'])
 
 
 if __name__ == '__main__':
