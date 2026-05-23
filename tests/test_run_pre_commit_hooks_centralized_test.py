@@ -3,6 +3,7 @@
 Test module for the pre_commit_to_rule_them_all module
 """
 import unittest
+from pathlib import Path
 from unittest.mock import ANY, patch
 
 from pre_commit_to_rule_them_all import run_pre_commit_hooks_centralized
@@ -135,6 +136,22 @@ class TestYamlConfigMethods(unittest.TestCase):
             run_pre_commit_hooks_centralized.use_pre_commit_hooks_common()
 
         self.assertEqual(context.exception.code, 1)
+
+
+class TestCommonConfiguration(unittest.TestCase):
+    """Tests for the common configuration file contents."""
+
+    def test_common_configuration_includes_vp_staged_local_hook(self):
+        """The common profile should include the local viteplus staged hook."""
+        common_config_path = Path(__file__).resolve().parent.parent / (
+            'pre_commit_to_rule_them_all/configurations/pre-commit-hooks-common.yaml'
+        )
+        common_config = common_config_path.read_text(encoding='utf-8')
+
+        self.assertIn('repo: local', common_config)
+        self.assertIn('id: vp-staged', common_config)
+        self.assertIn('entry: vp staged', common_config)
+        self.assertIn('pass_filenames: false', common_config)
 
 
 if __name__ == '__main__':

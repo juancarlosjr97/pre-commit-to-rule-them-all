@@ -120,6 +120,7 @@ The common hook bundle is defined in `pre_commit_to_rule_them_all/configurations
   - `requirements-txt-fixer`
   - `trailing-whitespace`
 - `renovate-config-validator`
+- `vp staged`
 - `yamllint`
 
 To run just this profile in the current repository:
