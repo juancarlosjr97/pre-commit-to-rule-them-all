@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.9.0...0.10.0) (2026-06-02)
+
+### Features
+
+* Add vp staged as a dedicated viteplus pre-commit workflow ([#120](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/120)) ([afa6dd6](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/afa6dd623131cd762e41c5ab2b1e86df0f648035)), closes [#118](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/118)
+
 ## [0.9.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.8.4...0.9.0) (2026-05-10)
 
 ### Features
