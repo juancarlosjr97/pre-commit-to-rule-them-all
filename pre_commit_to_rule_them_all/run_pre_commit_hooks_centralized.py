@@ -42,6 +42,12 @@ def use_pre_commit_hooks_skills_update():
         'configurations/pre-commit-hooks-skills-update.yaml')
 
 
+def use_pre_commit_hooks_viteplus():
+    """Method that executes the pre-commit hook for viteplus"""
+    execute_pre_commit_hooks_centralized(
+        'configurations/pre-commit-hooks-viteplus.yaml')
+
+
 def execute_pre_commit_hooks_centralized(config_yaml):
     """Method that executes the specified centralized pre-commit hook configuration"""
 
