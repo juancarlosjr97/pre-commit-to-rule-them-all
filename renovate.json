@@ -3,8 +3,8 @@
   "extends": [
     ":assignee(juancarlosjr97)",
     ":reviewer(juancarlosjr97)",
-    "github>juancarlosjr97/renovate-configuration#main",
-    "github>juancarlosjr97/renovate-configuration//presets/internal-tooling-circular#main"
+    "github>juancarlosjr97/one-renovate-configuration-to-rule-them-all#main",
+    "github>juancarlosjr97/one-renovate-configuration-to-rule-them-all//presets/internal-tooling-circular#main"
   ],
   "pre-commit": {
     "managerFilePatterns": [
