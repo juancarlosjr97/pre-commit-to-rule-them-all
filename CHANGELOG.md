@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.1](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.0...0.10.1) (2026-06-10)
+
+### Code Refactoring
+
+* migrate Renovate extends to one-renovate-configuration-to-rule-them-all  ([271f8c4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/271f8c4f70f151a92d4242b1e9975a5e3c866807)), closes [#121](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/121)
+
 ## [0.10.0](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.9.0...0.10.0) (2026-06-02)
 
 ### Features
