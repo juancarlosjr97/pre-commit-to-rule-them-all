@@ -107,63 +107,183 @@ This changelog is auto generated using release-it.
 
 ## [0.7.49](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.48...0.7.49) (2026-05-05)
 
+### Chores
+
+* **deps:** update all dependencies ([#98](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/98)) ([6f9b875](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/6f9b875f39e0b2a9d360aa38e8e95bc43c53b4e4))
+
 ## [0.7.48](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.47...0.7.48) (2026-05-05)
+
+### Chores
+
+* **deps:** update all dependencies ([#97](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/97)) ([a868247](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a868247b184d4780256e0e200bc7ea5425352939))
 
 ## [0.7.47](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.46...0.7.47) (2026-05-04)
 
+### Chores
+
+* **deps:** update all dependencies ([#96](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/96)) ([13fe6ae](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/13fe6aec6849afe6619afd7b3720b8eba223f1c9))
+
 ## [0.7.46](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.45...0.7.46) (2026-05-04)
+
+### Chores
+
+* **deps:** update all dependencies ([#95](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/95)) ([8c45d78](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/8c45d78fd9061e9db5f0328e0e429c98d938b10e))
 
 ## [0.7.45](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.44...0.7.45) (2026-05-03)
 
+### Chores
+
+* **deps:** update all dependencies ([#94](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/94)) ([c8c29ca](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c8c29ca9fff67e6132ccf475679b2facfe91ab71))
+
 ## [0.7.44](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.43...0.7.44) (2026-05-03)
+
+### Chores
+
+* **deps:** update all dependencies ([#93](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/93)) ([9748afa](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/9748afa745c7a3344522fed8754dc842daab7fa4))
 
 ## [0.7.43](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.42...0.7.43) (2026-05-02)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 1c3ed29 ([#92](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/92)) ([c7a269c](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c7a269c18936b94b6a48c804eded06f173434f9f))
+
 ## [0.7.42](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.41...0.7.42) (2026-05-02)
+
+### Chores
+
+* **deps:** update dependency juancarlosjr97/renovate-configuration to v0.1.6 ([#91](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/91)) ([c794c59](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c794c597b99e84af773ff28aa194f81232254e57))
 
 ## [0.7.41](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.40...0.7.41) (2026-04-25)
 
+### Chores
+
+* **deps:** update dependency packaging to v26.2 ([#90](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/90)) ([6db9616](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/6db961615aab3efd86cfe432110ef15bf7fd11a6))
+
 ## [0.7.40](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.39...0.7.40) (2026-04-23)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to b74710e ([#89](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/89)) ([a177807](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a177807859eb90fd03031969c4d20dd2048844a4))
 
 ## [0.7.39](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.38...0.7.39) (2026-04-22)
 
+### Chores
+
+* **deps:** update dependency pre-commit to v4.6.0 ([#88](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/88)) ([93c1704](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/93c1704d28d182e107753a821dc5d6e11feffaac))
+
 ## [0.7.38](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.37...0.7.38) (2026-04-21)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 26e4cf3 ([#87](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/87)) ([629ec8c](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/629ec8cbe9450ebdd91ba3c5a74b012c7d417f1b))
 
 ## [0.7.37](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.36...0.7.37) (2026-04-21)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 32e5e58 ([#86](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/86)) ([3be74cf](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/3be74cf51371e4f4fdefd5f29c16e0c17fb70d0c))
+
 ## [0.7.36](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.35...0.7.36) (2026-04-20)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to dc914c7 ([#85](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/85)) ([ba8dec2](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/ba8dec24e8982c1f926de6616cd2b1c62b175fb1))
 
 ## [0.7.35](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.34...0.7.35) (2026-04-19)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 0d0df08 ([#84](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/84)) ([82a0285](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/82a0285591cab9e65151c4e351dbc95f492f0570))
+
 ## [0.7.34](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.33...0.7.34) (2026-04-17)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to dbd53c0 ([#83](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/83)) ([4d23a1b](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/4d23a1ba07005fc77fa8ad7e50c518e370505ded))
 
 ## [0.7.33](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.32...0.7.33) (2026-04-17)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to b9f83fe ([#82](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/82)) ([34d0f45](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/34d0f45a4082ad670b18dd7f0d1c9635ba19c4c2))
+
 ## [0.7.32](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.31...0.7.32) (2026-04-16)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 068d047 ([#81](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/81)) ([33a0cef](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/33a0cef43417eeaac0ce366eceda6384bde54911))
 
 ## [0.7.31](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.30...0.7.31) (2026-04-15)
 
+### Chores
+
+* **deps:** update dependency packaging to v26.1 ([#80](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/80)) ([c406d3f](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c406d3f8c9aa793e8c4f83f51d3e82a5a2f97101))
+
 ## [0.7.30](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.29...0.7.30) (2026-04-14)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 2d9955a ([#79](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/79)) ([a77a57f](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a77a57f35a6a76208141d276785d5e4960c30f32))
 
 ## [0.7.29](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.28...0.7.29) (2026-04-14)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to fdc00d2 ([#78](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/78)) ([2eb5b2f](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/2eb5b2fca6410397d18fc96eb04c3e2057743008))
+
 ## [0.7.28](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.27...0.7.28) (2026-04-13)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 0fc3739 ([#77](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/77)) ([8f69e98](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/8f69e98c69bedec7d26d8f53018e3952c231e494))
 
 ## [0.7.27](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.26...0.7.27) (2026-04-13)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 31ba8dd ([#76](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/76)) ([f4e0a96](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/f4e0a9681371c7707efedb987293c32c221fe898))
+
 ## [0.7.26](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.25...0.7.26) (2026-04-12)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to caf07a9 ([#75](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/75)) ([67a4762](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/67a47620d8b861ceaa3776c2541f677c79c315e1))
 
 ## [0.7.25](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.24...0.7.25) (2026-04-11)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 3e9d09d ([#74](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/74)) ([4b92396](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/4b9239605dbf90db8ff8b5e4f588d552757e5995))
+
 ## [0.7.24](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.23...0.7.24) (2026-04-11)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 7929d2f ([#73](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/73)) ([a5b3f1f](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a5b3f1fac5d15916cc1d6d0208ee810c6446b994))
 
 ## [0.7.23](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.22...0.7.23) (2026-04-10)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 3ae5cc6 ([#72](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/72)) ([b6bb7a4](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/b6bb7a4672556a8b6c93257427b5519a98c2ba7c))
+
 ## [0.7.22](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.21...0.7.22) (2026-04-10)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to ba2053d ([#71](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/71)) ([80e3717](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/80e3717aa86f103555aaedb56a2b683f654786bf))
 
 ## [0.7.21](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.20...0.7.21) (2026-04-09)
 
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to fa2d574 ([#70](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/70)) ([8932976](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/8932976f9beadeb4fad76ca67e5d0c85495d34d4))
+
 ## [0.7.20](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.19...0.7.20) (2026-04-09)
+
+### Chores
+
+* **deps:** update juancarlosjr97/github-actions-workflows-to-rule-them-all digest to 2105673 ([#69](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/69)) ([a2a932c](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/a2a932c10f5b9767ffe92660a4c45ed685854235))
 
 ## [0.7.19](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.7.18...0.7.19) (2026-04-08)
 
@@ -304,6 +424,10 @@ This changelog is auto generated using release-it.
 * **deps:** update dependency juancarlosjr97/renovate-configuration to v0.1.5 ([#41](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/41)) ([1921286](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/19212865d5fa4a587f472026f1b136b0c305f689))
 
 ## [0.5.14](///compare/0.5.13...0.5.14) (2025-12-07)
+
+### Chores
+
+* **deps:** update dependency pytest to v9.0.2 ([#40](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/40)) ([c1f3487](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c1f348770bf7763563a450aeb3951f2e3ae6bebb))
 
 ## [0.5.13](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.5.12...0.5.13) (2025-11-13)
 
