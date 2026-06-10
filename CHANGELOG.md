@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.2](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.1...0.10.2) (2026-06-10)
+
+### Documentation
+
+* backfill empty CHANGELOG sections for dependency-only releases ([de9e5fd](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/de9e5fdcdcdc56d79b6b065666f847c54e774da2)), closes [#123](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/123)
+
 ## [0.10.1](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.0...0.10.1) (2026-06-10)
 
 ### Code Refactoring
