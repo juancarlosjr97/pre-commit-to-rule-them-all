@@ -6,7 +6,7 @@ This repository packages centralized pre-commit hook bundles as a small Python d
 
 ## Commands
 
-- Install locally so the console scripts are available: `python -m pip install -e .`
+- Install locally so the console scripts are available: `uv pip install -e .`
 - Run tests: `pytest`
 - Run the main test file: `pytest tests/test_run_pre_commit_hooks_centralized_test.py`
 - Run a single test: `pytest tests/test_run_pre_commit_hooks_centralized_test.py -k test_use_pre_commit_hooks_python`
