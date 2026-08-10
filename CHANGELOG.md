@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.7](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.6...0.10.7) (2026-08-10)
+
+### Chores
+
+* **deps:** update dependency packaging to v26.3 ([#132](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/132)) ([9d5ff69](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/9d5ff6994f20ebcc8553885e23b8edea390823f0))
+
 ## [0.10.6](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.5...0.10.6) (2026-07-27)
 
 ### Chores
