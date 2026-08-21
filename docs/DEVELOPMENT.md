@@ -5,8 +5,9 @@
 Install the package and all development dependencies:
 
 ```bash
-python -m pip install -e .
-pip install -r requirements.txt
+uv venv venv
+source venv/bin/activate
+uv pip install -e . -r requirements.txt
 ```
 
 This installs three local entrypoints:

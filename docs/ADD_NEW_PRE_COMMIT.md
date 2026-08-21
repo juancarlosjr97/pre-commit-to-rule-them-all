@@ -89,10 +89,9 @@ pre-commit run --all-files
 If you prefer to use a local virtual environment in `./venv`, you can create and activate it with:
 
 ```bash
-python -m venv venv
+uv venv venv
 source venv/bin/activate
-pip install -e .
-pip install -r requirements.txt
+uv pip install -e . -r requirements.txt
 ```
 
 Then the validated commands are:
