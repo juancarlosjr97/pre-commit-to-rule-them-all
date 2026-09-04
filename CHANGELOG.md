@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.10](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.9...0.10.10) (2026-09-04)
+
+### Chores
+
+* **deps:** update dependency pylint to v4.0.8 ([#136](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/136)) ([db7210d](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/db7210d91c3f3a8465e8268c0627bb9cf753db4d))
+
 ## [0.10.9](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.8...0.10.9) (2026-08-16)
 
 ### Chores
