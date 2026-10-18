@@ -3,6 +3,12 @@
 This changelog is auto generated using release-it.
 
 
+## [0.10.16](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.15...0.10.16) (2026-10-18)
+
+### Chores
+
+* **deps:** update dependency pre-commit to v4.7.0 ([#142](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/issues/142)) ([c6ef9bd](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/commit/c6ef9bd12bae626e64e2d4c13e7ce8ca169164d6))
+
 ## [0.10.15](https://github.com/juancarlosjr97/pre-commit-to-rule-them-all/compare/0.10.14...0.10.15) (2026-10-16)
 
 ### Chores
